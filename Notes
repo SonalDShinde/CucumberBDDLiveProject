@@ -1,0 +1,13 @@
+test-output ----> folder having cucumber-extent report 
+
+reports ----> folder having cucumber-junit reports
+
+extent.properties -------> To generate extent report we don not have any utility file....
+because in TestNG we have listeners concept whenever test method gets failed it generate report of that 
+for that we need to write extent.proprties file and need to add 3rd party library 
+	<dependency>
+	    <groupId>tech.grasshopper</groupId>
+	    <artifactId>extentreports-cucumber7-adapter</artifactId>
+	    <version>1.14.0</version>
+	</dependency>
+
