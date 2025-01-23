@@ -6,6 +6,7 @@ Feature: Login with Valid Credentials
     And the user clicks on login button
     Then the user should be redirected to the MyAccount page
     
+    
   
   
   
