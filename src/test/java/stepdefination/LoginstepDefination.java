@@ -28,12 +28,12 @@ public class LoginstepDefination {
 	}
 
 	@When("user enters email as {string} and password as {string}")
-	public void user_enters_email_as_and_password_as(String email, String pass) {
+	public void user_enters_email_as_and_password_as(String email, String password) {
 	   BaseClass.getLogger().info("Entering Email & Password For Login");
 	   
 	   lp = new LoginPage(BaseClass.getDriver());
 	   lp.setEmail(email);
-	   lp.setPassword(pass);
+	   lp.setPassword(password);
 	}
 
 	@When("the user clicks on login button")

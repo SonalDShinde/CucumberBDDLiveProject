@@ -24,9 +24,9 @@ public class LoginPage extends BasePage {
 		txtEmail.sendKeys(email);
 	}
 	
-	public void setPassword(String pass) {
+	public void setPassword(String password) {
 		
-		txtPassword.sendKeys(pass);
+		txtPassword.sendKeys(password);
 		
 	}
 	public void setLogin() {
