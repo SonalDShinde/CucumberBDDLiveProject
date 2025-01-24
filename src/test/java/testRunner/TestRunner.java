@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions( //features = {".//src/test/java/features/"}, 
 					//features= { ".//src/test/java/features/Login.feature"},
-						features= { ".//src/test/java/features/Registration.feature"},
+						//features= { ".//src/test/java/features/Registration.feature"},
+								features= { ".//src/test/java/features/AddToCart1.feature"},
 								glue = {"stepdefination","hooks"},
 								plugin= {
 										"pretty", "html:reports/myreport.html",   
